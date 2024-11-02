@@ -1,5 +1,16 @@
 # mosaic-ai-agent-demo
 
-<a href="https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies" target="_blank">
-  <img src="media/agent-overview.png" />
-</a>
+```mermaid
+%%{init: {'theme': 'neutral'}}%%
+graph LR;
+  A[Agent] --> T1[SQL Lookup]
+  A --> T2[Similarity Search]
+  A --> T3[Image Generation]
+  A --> T4[Messaging]
+  subgraph Tools
+    T1
+    T2
+    T3
+    T4
+  end
+```
