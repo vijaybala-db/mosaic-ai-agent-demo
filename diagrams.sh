@@ -1,1 +1,1 @@
-mmdc -i diagrams/agent-overview.mmd -o media/agent-overview.png
+mmdc -i diagrams/agent-overview.mmd -o docs/agent-overview.png
